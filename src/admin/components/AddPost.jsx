@@ -7,6 +7,7 @@ const AddPost = () => {
   const [body, setBody] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [author, setAuthor] = useState("");
+  const [category, setCategory] = useState("");
   const navigate = useNavigate();
   // setTitle("presidient tinubu")
   const handleSubmit = async (e) => {
@@ -17,6 +18,7 @@ const AddPost = () => {
       body,
       imageUrl,
       author,
+      category,
       date: new Date().toISOString().split("T")[0],
     };
 
@@ -71,6 +73,16 @@ const AddPost = () => {
           type="text"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
+          required
+          style={{ width: "100%", padding: "8px" }}
+        />
+      </div>
+      <div style={{ marginBottom: "10px" }}>
+        <label>Category</label>
+        <input
+          type="text"
+          value={category}
+          onChange={(e) => setCategory(e.target.value)}
           required
           style={{ width: "100%", padding: "8px" }}
         />

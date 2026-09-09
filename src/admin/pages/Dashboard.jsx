@@ -9,6 +9,7 @@ const Dashboard = () => {
       try {
         const response = await fetch(`${API_BASE_URL}/posts`);
         const data = await response.json();
+        // console.log(data)
         setPostCount(data.length);
         console.log("Fetched posts:", data.length);
       } catch (error) {

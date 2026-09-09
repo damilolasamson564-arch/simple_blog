@@ -8,6 +8,7 @@ const EditPost = () => {
   const [body, setBody] = useState("");
   const [imageUrl, setImageUrl] = useState("");
   const [author, setAuthor] = useState("");
+  const [category, setCategory] = useState("");
   const navigate = useNavigate();
   // http://localhost:5000/posts/:id
   useEffect(() => {
@@ -20,6 +21,7 @@ const EditPost = () => {
         setBody(data.body);
         setImageUrl(data.imageUrl);
         setAuthor(data.author);
+        setCategory(data.category);
       } catch (error) {
         console.error("Error fetching post:", error);
       }
@@ -31,10 +33,10 @@ const EditPost = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const updatedPost = {
-      title,
-      body,
-      imageUrl,
-      author,
+      title:title,
+      body:body,
+      imageUrl:imageUrl,
+      author:author,
       date: new Date().toISOString().split("T")[0],
     };
 

@@ -9,11 +9,11 @@
       "id": "1"
     },
     {
-      "title": "President Tinubu is a great man i know",
+      "title": "President Tinubu is a great man i knows in the world now",
       "body": "President Tinubu is a great man President Tinubu is a great man President Tinubu is a great manv President Tinubu is a great man President Tinubu is a great man",
       "imageUrl": "https://images.unsplash.com/photo-1761165308103-c58782f27c59?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1887",
       "author": "Olu",
-      "date": "2025-11-09",
+      "date": "2026-03-01",
       "id": "1761385312738"
     },
     {
@@ -31,13 +31,42 @@
       "imageUrl": "",
       "author": "popqwo",
       "date": "2025-11-09"
+    },
+    {
+      "title": "kola is here",
+      "body": "mnokneclk",
+      "imageUrl": "efpompo",
+      "author": "ompom",
+      "date": "2026-08-12",
+      "id": "1772382141766"
+    },
+    {
+      "id": "1772382141766",
+      "title": "Me",
+      "body": "mnokneclk",
+      "imageUrl": "efpompo",
+      "author": "you",
+      "date": "2026-08-12",
+      "id": "1772382141766"
     }
   ],
   "users": [
     {
+      "id": "2",
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    }
+  ],
+  "products": [
+    {
       "id": "1",
-      "username": "admin",
-      "password": "password123"
+      "name": "Product 1",
+      "price": 19.99
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 29.99
     }
   ]
 }

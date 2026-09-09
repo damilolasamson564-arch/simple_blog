@@ -3,7 +3,7 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import API_BASE_URL from "../apiConfig";
 
 const PostDetailPage = () => {
-  const { id } = useParams();
+  const { id } = useParams(); //{ id:212312 }
   const navigate = useNavigate();
   const [post, setPost] = useState(null);
   const [loading, setLoading] = useState(true);

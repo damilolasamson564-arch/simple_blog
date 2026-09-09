@@ -13,6 +13,9 @@ const Sidebar = () => {
           <li>
             <NavLink to="/admin/manage-posts" style={({ isActive }) => ({ color: isActive ? 'red' : 'blue' })}>Manage Posts</NavLink>
           </li>
+          <li>
+            <NavLink to="/admin/manage-users" style={({ isActive }) => ({ color: isActive ? 'red' : 'blue' })}>Manage Users</NavLink>
+          </li>
         </ul>
       </nav>
     </aside>
