@@ -236,26 +236,26 @@ const Home = () => {
       </section>
 
       <footer className="site-footer">
-        <div>
+       {/* <div>
           <h3>PrimeTech</h3>
           <p>Smart devices, smarter living.</p>
-        </div>
-        <div>
+        </div>*/}
+       {/* <div>
           <h4>Shop</h4>
           <ul>
             <li>Phones</li>
             <li>Laptops</li>
             <li>Accessories</li>
           </ul>
-        </div>
-        <div>
+        </div>*/}
+        {/*<div>
           <h4>Support</h4>
           <ul>
             <li>Shipping</li>
             <li>Returns</li>
             <li>Contact</li>
           </ul>
-        </div>
+        </div>*/}
       </footer>
     </div>
   );
